@@ -1,0 +1,21 @@
+{
+  "name": "adb-terminal-server",
+  "version": "1.0.0",
+  "description": "A WebSocket-based terminal server to communicate with Unreal Engine clients.",
+  "main": "adb-terminal.js",
+  "scripts": {
+    "start": "node adb-terminal.js"
+  },
+  "keywords": [
+    "websocket",
+    "terminal",
+    "unreal-engine",
+    "ue",
+    "nodejs"
+  ],
+  "author": "Umar Razzaq",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.17.0"
+  }
+}
